@@ -1,0 +1,24 @@
+html, body { height: 100%; margin: 0; background: #111; overflow: hidden; }
+        .scoreboard {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            color: #fff;
+            font-family: comic sans ms, cursive, sans-serif;
+            font-size: 20px;
+            z-index: 10;
+        }
+        .word {
+            position: absolute;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            font-size: 24px;
+            color: #fff;
+            user-select: none;
+            padding: 5px;
+            background-color: rgba(255, 0, 234, 0.5);
+            border-radius: 5px;
+            border: 2px solid #fff;
+            white-space: nowrap;
+        }
+        .bad { border-color: rgb(255, 0, 187); background-color: rgba(255,0,0,0.35); }
+        .good { border-color: green; background-color: rgba(0,255,0,0.18); }
